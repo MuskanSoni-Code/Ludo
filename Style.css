@@ -1,0 +1,41 @@
+<style>
+    h1 {
+      font-size: 50px;
+      color: green;
+    }
+    body {
+      background: repeating-linear-gradient(
+        45deg,
+        black,
+        rgb(3, 3, 3) 10px,
+        rgb(3, 3, 3) 10px,
+        rgb(32, 31, 31) 20px
+      );
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #ludo {
+      width: 200;
+      height: 200;
+      border: 2px solid green;
+      box-shadow: 0px 0px 30px green;
+      padding: 20px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+    button {
+      background-color: black;
+      border: 2px solid green;
+      color: green;
+      box-shadow: 0px 0px 20px green;
+      padding: 12px 38px;
+      border-radius: 10px;
+      font-size: larger;
+    }
+    #ludo:hover {
+      transform: scale(1.2) rotate(-4deg);
+    }
+  </style>
